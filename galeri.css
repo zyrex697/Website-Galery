@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.Header {
+	grid-column: 1/3;
+	padding: 60px;
+	text-align: center;
+	background-color: #000000;
+}
+
+.Header h1 {
+	font-family: Arial black;
+	font-size: 50pt;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.Header p {
+	font-family: Arial black;
+	font-size: 20pt;
+	color: black;
+	-webkit-text-stroke: 0.8px white;
+
+}
+
+.container {
+	column-count: 3;
+	column-gap: 15px;
+	max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #000000;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.container img {
+	width: 100%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
